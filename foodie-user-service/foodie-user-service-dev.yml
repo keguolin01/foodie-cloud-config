@@ -1,7 +1,6 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=UTC
-    password: '{cipher}1a2f0836d5842a769d2247ba51e95c2817797fcf21c8bafe667806ad69b1b165'
+mariadb:
+  url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=UTC
+  password: '{cipher}1a2f0836d5842a769d2247ba51e95c2817797fcf21c8bafe667806ad69b1b165'
     
 userservice:
   registration:
